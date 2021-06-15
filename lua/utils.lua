@@ -31,3 +31,5 @@ function M.shade_color(color, percent)
 end
 
 return M
+
+listchars=tab:▷ ,trail:·,extends:◣,precedes:◢,nbsp:○

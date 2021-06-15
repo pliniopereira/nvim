@@ -4,7 +4,6 @@ vim.g.mapleader = " "
 
 local options = {
 	mouse = 'a',
-	encoding = 'utf-8',
 	background = 'dark',
 
 	number = true,
@@ -13,6 +12,21 @@ local options = {
 	cursorline = true,
 	colorcolumn = '80,120',
 	wrap = false,
+	
+	encoding = 'utf-8',
+	fileencoding = 'utf-8',
+	fileencodings = 'utf-8',
+	ttyfast = true,
+	
+	hidden = true,
+	
+	listchars = 'eol:⏎,tab:▷ ,trail:␠,nbsp:⎵',
+	list = true,
+	
+	tabstop = 4,
+	shiftwidth = 4,
+	expandtab = false,
+	smartindent = true,
 }
 
 local set_options = function(opt)

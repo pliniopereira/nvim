@@ -17,7 +17,17 @@ return require('packer').startup(function(use)
 	use { 'folke/tokyonight.nvim' }
 	
 	use { 'norcalli/nvim-colorizer.lua' } 
-
+	
+	-- langs
 	use { 'andweeb/presence.nvim' }
-
+	
+	use { 'vim-scripts/c.vim' }
+	
+	use { 'lunarWatcher/auto-pairs' }
+	
+	use { 'axelf4/vim-strip-trailing-whitespace' }
+	
+	-- 42
+	use { 'vinicius507/norme.nvim', requires = { 'mfussenegger/nvim-lint' } }
+	use { 'eduardomosko/header42.nvim' }
 end)
