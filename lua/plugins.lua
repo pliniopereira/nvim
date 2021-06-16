@@ -11,22 +11,30 @@ end
 return require('packer').startup(function(use)
 	-- make the plugin manage itself
 	use { 'wbthomason/packer.nvim' }
-	
+
 	-- colorscheme
 	use { 'joshdick/onedark.vim' }
 	use { 'folke/tokyonight.nvim' }
-	
+
 	use { 'norcalli/nvim-colorizer.lua' } 
-	
+
 	-- langs
 	use { 'andweeb/presence.nvim' }
-	
+
 	use { 'vim-scripts/c.vim' }
-	
+
 	use { 'lunarWatcher/auto-pairs' }
-	
+
 	use { 'axelf4/vim-strip-trailing-whitespace' }
-	
+
+	use { 'akinsho/nvim-toggleterm.lua' }
+
+	-- fuzzy finder
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+	}
+
 	-- 42
 	use { 'vinicius507/norme.nvim', requires = { 'mfussenegger/nvim-lint' } }
 	use { 'eduardomosko/header42.nvim' }

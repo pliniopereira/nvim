@@ -17,7 +17,7 @@ require('themes.tokyonight')
 --require('settings.plugins.completion-nvim')  -- ~/.config/nvim/lua/settings/plugins/completion-nvim.lua
 --require('settings.plugins.nvim-compe')         -- ~/.config/nvim/lua/settings/plugins/nvim-compe.lua
 --require('settings.plugins.tree-sitter')        -- ~/.config/nvim/lua/settings/plugins/tree-sitter.lua
---require('settings.plugins.telescope')          -- ~/.config/nvim/lua/settings/plugins/telescope.lua
+require('settings.plugins.telescope')          -- ~/.config/nvim/lua/settings/plugins/telescope.lua
 --require('settings.plugins.lualine')
 --require('settings.plugins.galaxyline')         -- ~/.config/nvim/lua/settings/plugins/galaxyline.lua
 --require('settings.plugins.bufferline')         -- ~/.config/nvim/lua/settings/plugins/bufferline.lua
